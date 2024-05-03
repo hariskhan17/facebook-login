@@ -15,19 +15,249 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* 
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.post-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-header {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.post-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.post-media img,
+.post-media video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.post-interactions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.post-interactions button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-interactions button:hover {
+  background-color: #0056b3;
+}
+
+.main-Navbar{
+  padding: 10px;
+  background-color: #007bff;
+  color: black;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.search input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+
+.profile img:hover {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.container {
+  min-height: 100;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+.navbar {
+  width: 104%;
+  position: sticky; 
+  top: 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000000;
+  color: #000000;
+  margin-bottom: 50PX;
+  
+}
+
+.navbar .logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar .search input {
+  padding: 0.5rem;
+  border-radius: 8px;
+  position: relative;
+  left: 170px;
+}
+
+.navbar .profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #147DC8;
+}
+.color{
+  color: #ffff;
+  position: relative;
+  left: 150px;
+
+ 
+  
+}
+.BTN{
+  color: #ffff;
+  background-color: #147DC8;
+  padding: 8px;
+  border-radius: 10px;
+  position: relative;
+  left: 20px;
+  bottom: 12px;
+} */
+/* ---------------------------------------------------------------------- */
+/* .front {
+
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220907/pngtree-delve-deeper-into-this-a-gathering-of-corporate-professionals-convening-in-the-conference-chamber-photo-image_48524492.jpg');
+  height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.F-btn{
+  display:  flex;
+  justify-content:  center;
+  position: relative;
+  
+  left: 480px;
+  bottom: 70px;
+  width: 30%;
+  background-color: #147DC8;
+  border-radius: 20px;
+  padding: 20px;
+  align-items: center;
+
+}
+.logo1{
+  width: 50%;
+  position: relative;
+  top: 60px;
+  left: 380px;
+} */
+
+/* themes.css */
+/* Facebook theme */
+.facebook-theme {
+  background-color: #3b5998;
+  color: white;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0; /* Initially set opacity to 0 */
+  animation: fadeIn 0.5s ease forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
+
+.facebook-theme h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.facebook-theme a {
+  color: white;
+  text-decoration: none;
+}
+
+.facebook-theme a:hover {
+  text-decoration: underline;
+}
+
+/* Dark theme */
+.dark-theme {
+  background-color: #0e1e38;
+  color: white;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dark-theme h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dark-theme a {
+  color: white;
+  text-decoration: none;
+}
+
+.dark-theme a:hover {
+  text-decoration: underline;
+}
+/* facebook login*/
